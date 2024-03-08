@@ -1,0 +1,91 @@
+
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(19, 18, 18);
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+.main{
+  margin: 0px 350px;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+
+
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  padding: 0px 20px;
+  padding-top: 60px;
+
+
+}
+
+
+/* ******************CALCULATOR MAIN SECTION*************************** */
+
+.calculator{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+
+
+
+/* ******************INPUT SECTION************************** */
+
+.input{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+
+
+.input input{
+  width: 65%;
+  padding: 25px 3px;
+  font-size: 20px;
+  font-weight: 500;
+  outline: 1px solid rgba(0, 119, 255, 0.226);
+}
+
+
+
+
+/* ****************BUTTON STYLING****************** */
+
+
+.btn{
+  width: 100px;
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  /* border: 1px solid rgb(104, 102, 102); */
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgb(251, 251, 252);
+  box-shadow: 0 0 2px rgb(63, 62, 62);
+}
+
+.blue{
+  background-color: rgb(0, 75, 214);
+  color: white;
+}
